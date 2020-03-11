@@ -42,6 +42,7 @@ static const Rule rules[] = {
     // java
 	{ "tutorial2.Exterminator",     NULL,       NULL,       1,            1,           -1 },
 	{ "reserve.Reserve",     NULL,       NULL,       1,            1,           -1 },
+	{ "lab1-ParticleMain",     NULL,       NULL,       1,            1,           -1 },
 	/* { "application.Main",     NULL,       NULL,       1,            1,           -1 }, */
 
 	/* (u)rxvt/terminal */
