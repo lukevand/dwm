@@ -5,7 +5,7 @@ static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace-9" };
+static const char *fonts[]          = { "terminus-9" };
 static const char dmenufont[]       = "monospace-9";
 static const char col_gray1[]       = "gray9"; // dark
 static const char col_gray2[]       = "#444444"; // light
@@ -54,11 +54,12 @@ static const Rule rules[] = {
 	/* (w)eb */
 	{ "Firefox", NULL,	 NULL,		1 << WWW,	      0,	   -1 },
 	{ "firefox", NULL,	 NULL,		1 << WWW,	      0,	   -1 },
+	{ "Chromium", NULL,	 NULL,		1 << WWW,	      0,	   -1 },
 	{ "IceCat", NULL,	 NULL,		1 << WWW,	      0,	   -1 },
 	{ "qutebrowser", NULL,	 NULL,		1 << WWW,	      0,	   -1 },
 	{ "Tor Browser", NULL,	 NULL,		1 << 7,	      1,	   -1 },
 
-	{ "Eclipse", NULL,	 NULL,		1 << 7,	      0,	   -1 },
+	{ "Eclipse", NULL,	 NULL,		1 << EMACS,	      0,	   -1 },
 
 	/* { "Emacs",   NULL,       NULL,          1 << EMACS, 0, -1 }, */
 	{ "Qemu-system-x86_64",   NULL,       NULL,          1 << EMACS, 0, -1 },
