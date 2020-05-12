@@ -63,6 +63,9 @@ static const Rule rules[] = {
 
 	/* { "Emacs",   NULL,       NULL,          1 << EMACS, 0, -1 }, */
 	{ "Qemu-system-x86_64",   NULL,       NULL,          1 << EMACS, 0, -1 },
+	{ "zoom",   NULL,       NULL,          1 << EMACS, 0, -1 },
+	{ "jetbrains-pycharm-ce", NULL,	 NULL,		1 << EMACS,	      0,	   -1 },
+	{ "jetbrains-idea-ce", NULL,	 NULL,		1 << EMACS,	      0,	   -1 },
 	/* (m)pv */
 	{ "mpv",     NULL,	 NULL,		1 << VID, 0, -1 },
 	/* (z)athura (docs)*/
