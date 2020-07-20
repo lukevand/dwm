@@ -39,18 +39,12 @@ static const Rule rules[] = {
 	{ "Nm-connection-editor",     NULL,       NULL,       0,            1,           -1 },
 	{ "kmines",    NULL,	 NULL,		1,	      1,	   -1 },
 
-    // java
-	{ "tutorial2.Exterminator",     NULL,       NULL,       1,            1,           -1 },
-	{ "reserve.Reserve",     NULL,       NULL,       1,            1,           -1 },
-	{ "lab1-ParticleMain",     NULL,       NULL,       1,            1,           -1 },
-	/* { "application.Main",     NULL,       NULL,       1,            1,           -1 }, */
-
 	/* (u)rxvt/terminal */
 	{ "st-256color",   NULL,       NULL,	      1, 0, -1 },
 	{ "st-256color",   "float",       NULL,	      1, 1, -1 },
-
 	{ "URxvt",   NULL,	 NULL,		1, 0, -1 },
 	{ "stterm-256color",   NULL,	   NULL,	  1, 0, -1 },
+
 	/* (w)eb */
 	{ "Firefox", NULL,	 NULL,		1 << WWW,	      0,	   -1 },
 	{ "firefox", NULL,	 NULL,		1 << WWW,	      0,	   -1 },
@@ -60,12 +54,12 @@ static const Rule rules[] = {
 	{ "Tor Browser", NULL,	 NULL,		1 << 7,	      1,	   -1 },
 
 	{ "Eclipse", NULL,	 NULL,		1 << EMACS,	      0,	   -1 },
-
-	/* { "Emacs",   NULL,       NULL,          1 << EMACS, 0, -1 }, */
+	{ "Emacs",   NULL,       NULL,          1 << EMACS, 0, -1 },
 	{ "Qemu-system-x86_64",   NULL,       NULL,          1 << EMACS, 0, -1 },
 	{ "zoom",   NULL,       NULL,          1 << EMACS, 0, -1 },
 	{ "jetbrains-pycharm-ce", NULL,	 NULL,		1 << EMACS,	      0,	   -1 },
 	{ "jetbrains-idea-ce", NULL,	 NULL,		1 << EMACS,	      0,	   -1 },
+
 	/* (m)pv */
 	{ "mpv",     NULL,	 NULL,		1 << VID, 0, -1 },
 	/* (z)athura (docs)*/
