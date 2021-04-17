@@ -6,7 +6,7 @@ static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "terminus-9" };
-static const char dmenufont[]       = "monospace-9";
+static const char dmenufont[]       = "terminus-9";
 static const char col_gray1[]       = "gray9"; // dark
 static const char col_gray2[]       = "#444444"; // light
 static const char col_gray3[]       = "#bbbbbb"; // white
@@ -38,6 +38,7 @@ static const Rule rules[] = {
 	{ "Pavucontrol",     NULL,       NULL,       0,            1,           -1 },
 	{ "Nm-connection-editor",     NULL,       NULL,       0,            1,           -1 },
 	{ "kmines",    NULL,	 NULL,		1,	      1,	   -1 },
+        { "higan", NULL, NULL, 0, 1, -1},
 
 	/* (u)rxvt/terminal */
 	{ "st-256color",   NULL,       NULL,	      1, 0, -1 },
